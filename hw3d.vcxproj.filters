@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{4e198ed7-2990-4378-8e25-789ee4f8495f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drawable">
+      <UniqueIdentifier>{7566a42c-2c82-40b1-842f-7cc07df9cf93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drawable">
+      <UniqueIdentifier>{fc012210-68fc-49b9-8e0f-fb2b5b515e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{849771c3-4f2f-4720-afa1-c47dd1592ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{df6fef4d-3b9f-4ca3-974c-d5015ec7351c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DXComponents">
+      <UniqueIdentifier>{ffdb1a4b-4c11-4515-b981-d4c7db692503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\utility">
+      <UniqueIdentifier>{7313099a-d9dd-443e-8adf-e2d5f1062703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\directx_tex">
+      <UniqueIdentifier>{c311576d-f0a9-436a-9eef-ae43a904321b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DXComponents">
+      <UniqueIdentifier>{28f3ac08-533d-437a-a82f-c45ff3e945aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\task_listing">
+      <UniqueIdentifier>{e97f10a0-6566-4b72-b75a-22b9a6b38c0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exeption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="index_buffer.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="input_layout.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="primitive_topology.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="pixel_shader.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex_buffer.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex_shader.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="viewport.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="constant_buffers.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="drawable.cpp">
+      <Filter>Source Files\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_constant_buffer.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>Source Files\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Source Files\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="point_light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codex.cpp">
+      <Filter>Source Files\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="blender.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="rasterizer.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_cbuffer.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="depth_stencil_state.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="picker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>Source Files\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="depth_stencil_buffer.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="render_target.cpp">
+      <Filter>Source Files\DXComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="fullscreen_blend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="better_windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exeption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex_buffer.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="index_buffer.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="pixel_shader.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex_shader.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="primitive_topology.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="viewport.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="dx_component.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="input_layout.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="constant_buffers.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable.h">
+      <Filter>Header Files\drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>Header Files\drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="transform_constant_buffer.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="dx_component_base.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="sampler.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="point_light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Header Files\drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codex.h">
+      <Filter>Header Files\drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="gdiplus_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blender.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_tex\include\BCDirectCompute.h">
+      <Filter>Header Files\directx_tex</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_tex\include\d3dx12.h">
+      <Filter>Header Files\directx_tex</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_tex\include\DirectXTex.h">
+      <Filter>Header Files\directx_tex</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_tex\include\DirectXTexP.h">
+      <Filter>Header Files\directx_tex</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_tex\include\filters.h">
+      <Filter>Header Files\directx_tex</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_tex\include\scoped.h">
+      <Filter>Header Files\directx_tex</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_tex\include\BC.h">
+      <Filter>Header Files\directx_tex</Filter>
+    </ClInclude>
+    <ClInclude Include="rasterizer.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="dc_buf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_cbuffer.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="depth_stencil_state.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_manager.h">
+      <Filter>Header Files\task_listing</Filter>
+    </ClInclude>
+    <ClInclude Include="technique.h">
+      <Filter>Header Files\task_listing</Filter>
+    </ClInclude>
+    <ClInclude Include="technique_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_component_register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>Header Files\drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="render_target.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="depth_stencil_buffer.h">
+      <Filter>Header Files\DXComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="fullscreen_blend.h">
+      <Filter>Header Files\task_listing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hw3d.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PS_Phong_PN_C_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Phong_PN_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PNC__.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Phong_PNC_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PNT_S_T.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Phong_PNT_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PNT__TS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PNTTaB_S_TN.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Phong_PNTTaB_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PNTTaB__TSN.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="func_u.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+    <FxCompile Include="light_u.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+    <FxCompile Include="cam_u.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PNTTaB_C_NS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PNTTaB_CS_N.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PNT_C_S.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Solid__C_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Solid_P_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="backface_cbuf.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PN_CS_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="obj_color_cbuf.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+    <FxCompile Include="specular_cbuf.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+    <FxCompile Include="specular_map_consts.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Phong_PN_S_.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Solid___.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Phong_PN_Sc.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Phong_PNC_Sc.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Phong_PNT_Sc.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Phong_PNTTaB_Sc.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Solid_P_Sc.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="scale_cbuf.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_FullBlend.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_FullBlend.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="rt_info_cbuf.hlsl">
+      <Filter>shaders\utility</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directx_tex\include\DirectXTex.inl">
+      <Filter>Header Files\directx_tex</Filter>
+    </None>
+    <None Include="info.hlsli">
+      <Filter>shaders\utility</Filter>
+    </None>
+    <None Include="transform_matrix.hlsli">
+      <Filter>shaders\utility</Filter>
+    </None>
+  </ItemGroup>
+</Project>
